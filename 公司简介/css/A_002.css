@@ -1,0 +1,53 @@
+#menumain{
+   margin:0;
+   white-space:nowrap;
+   overflow:hidden;
+   height:34px;
+}
+
+#menumain .mainmenuiner {
+    height:34px;
+	padding:0;
+    line-height:34px;
+    overflow: hidden;
+    margin: 0px; 
+}
+
+#menumain a.menumain:link,#menumain a.menumain:active,#menumain a.menumain:visited{
+   display:block;
+   float:left;
+   height:34px;
+   text-decoration: none;
+   text-align:center;
+   width:100px;
+   color:#fff;
+   font:14px/30px 'SimSun',Arial,Sans-Serif;
+   background:url(../imgs/menu.jpg) 0px 0px no-repeat;
+   margin:0px;
+}
+
+#menumain a.menumain:hover{
+   display:block;
+   float:left;
+   height:34px;
+   color:#eee; 
+   text-decoration: none;
+   text-align:center;
+   width:100px;
+   font:14px/30px 'SimSun',Arial,Sans-Serif;
+   background:url(../imgs/menu.jpg) 0px 0px no-repeat;
+   margin:0px;
+} 
+
+#menumain a.menumain_current{
+   display:block;
+   float:left;
+   height:34px;
+   color:#000; 
+   text-decoration: none;
+   text-align:center;
+   width:100px;
+   font:14px/39px 'SimSun',Arial,Sans-Serif;
+   background:url(../imgs/menu.jpg) 0px 0px no-repeat;
+   margin:0px;
+} 

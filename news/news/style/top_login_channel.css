@@ -1,0 +1,169 @@
+@charset "utf-8";
+/*--- layout ---*/
+.top_login_channel {
+    height: 45px;
+    background: #f8f8f8;
+    border-bottom: solid 1px #D8D8D8;
+    text-align: left;
+    color: #666;
+    font: 12px/1.2 Tahoma, Helvetica, Arial, Microsoft YaHei, SimHei, sans-serif
+}
+
+.top_login_channel_in {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+.top_login_channel_left {
+    display: inline;
+    float: left
+}
+
+.top_login_channel_item {
+    display: inline;
+    float: left;
+    color: #cacaca;
+    line-height: 44px
+}
+
+.top_login_channel_left .a_style_1 {
+    margin-right: 40px
+}
+
+.top_login_channel_more {
+    display: inline-block;
+    _display: inline;
+    position: relative;
+    margin-left: -15px;
+    zoom: 1;
+    z-index: 10000
+}
+
+.top_login_channel_more_t {
+    display: inline-block;
+    padding: 0 22px;
+    line-height: 44px;
+    cursor: pointer;
+    color: #333;
+    position: relative;
+    z-index: 10001;
+}
+
+.top_login_channel_hover .top_login_channel_more_t {
+    position: relative;
+    margin-bottom: -1px;
+    background: #fff;
+    padding: 0 21px;
+    border-left: solid 1px #C7C7C7;
+    border-right: solid 1px #C7C7C7;
+    border-bottom: solid 1px #fff;
+    background: #fff
+}
+
+.ico_top_login_channel_more {
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    margin-left: 5px;
+    background: url(http://cache.365jia.com/images/www/img5/top_login_bg.png) no-repeat -104px -101px;
+    overflow: hidden;
+    font-size: 0;
+    vertical-align: middle
+}
+
+.top_login_channel_hover .ico_top_login_channel_more {
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    margin-left: 5px;
+    background: url(http://cache.365jia.com/images/www/img5/top_login_bg.png) no-repeat -104px -92px;
+    overflow: hidden;
+    vertical-align: middle
+}
+
+.top_login_channel_more_c {
+    display: none;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    padding: 0 15px;
+    background: #fff;
+    z-index: 10000;
+    border: solid 1px #dbdbdb
+}
+
+.top_login_channel_more_c dl {
+    width: 230px;
+    padding: 15px 0;
+    border-bottom: dotted 1px #eee;
+}
+
+.top_login_channel_hover .top_login_channel_more_c {
+    display: block
+}
+
+.top_login_channel_right {
+    display: inline;
+    float: right;
+    line-height: 44px;
+    color: #cacaca;
+    position: relative;
+    z-index: 10000
+}
+
+.top_login_channel_right .a_style_2 {
+    margin: 0 6px;
+    color: #666
+}
+
+.top_login_channel_info {
+    width: 56px;
+    padding: 10px 15px;
+    background: #FEFFED;
+    border: solid 1px #DCCA99;
+    position: absolute;
+    left: 0;
+    top: 30px
+}
+
+.cor_top_login_channel_1 {
+    color: #BD0A01;
+    font-weight: bolder
+}
+
+.cor_top_login_channel_2 {
+    margin-right: 35px;
+    color: #666
+}
+
+.ico_colse_info {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    height: 15px;
+    line-height: 15px;
+    color: #AF9A5F;
+    overflow: hidden
+}
+
+.ico_colse_info:hover {
+    color: Background;
+    text-decoration: none
+}
+
+.top_login_channel_subnav {
+    width: 1200px;
+    margin: 0 auto;
+    heiht: 40px;
+    background: #fff;
+}
+
+.top_login_channel_subnav li {
+    display: inline;
+    float: left;
+    margin-right: 35px;
+    font-size: 14px;
+    line-height: 40px;
+}

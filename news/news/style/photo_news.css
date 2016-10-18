@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*--- layout ---*/
+
+.mp_pic_tem { 
+   width: 620px;
+   margin: auto
+}
+
+/* 图片浏览 */
+.mp_img{position:relative;overflow:hidden;margin-top:5px;background:#fff;}
+.mp_img_in{position:relative;padding-top:5px;overflow:hidden;}
+.mp_btn_left,.mp_btn_right{position:absolute;top:50px;font-size:2.5em;font-family:\5b8b\4f53;font-weight:bolder;color:#d4d4d4}
+.mp_btn_left{left:10px}
+.mp_btn_right{right:10px}
+.mp_btn_left:hover,.mp_btn_right:hover{text-decoration:none;color:#333}
+.mp_img ul{position:relative}
+.mp_img li{display:inline;float:left;width:154px;height:106px;overflow:hidden;margin-right:30px;text-align:center}
+.item_mp_img{height:101px;overflow:hidden}
+.mp_btn_unfold{display:inline-block;padding:0 5px;background:#CC191D;line-height:16px;color:#fff;cursor:pointer}
+.mp_txt_cont{display:none;padding:20px 10px 0 10px;line-height:24px;color:#666;font-family:\5b8b\4f53;cursor:pointer}
+.mp_txt_cont .txt_span{margin-right:10px}
+.mp_btn_colse{color:#CC191D;white-space:nowrap}
+.mp_cover{position:absolute;top:0;display:block;width:154px;height:101px;padding-top:5px;overflow:hidden}
+.mp_cover_arw{position:absolute;top:-5px;left:48%;display:inline-block;width:0;height:0;overflow:hidden;border-style:dotted dotted solid dotted;border-color:transparent transparent #DB0F10 transparent;border-width:5px;font-size:0}
+.mp_cover_b{display:block;width:148px;height:95px;border-top:solid 3px #DB0F10}
+.mp_img_area{position:relative;zoom:1;margin-top:40px;text-align:center;}
+/*.mp_img_area .mp_img_h{display:inline-block;height:600px;vertical-align:middle}
+.mp_img_area li img{vertical-align:middle}*/
+.mp_img_title{margin-top:20px;display:none;}
+.mP_count{display:inline-block;*display:inline;zoom:1;width:8%;height:100%; vertical-align:middle;font-size:1.5em;font-weight:normal;color:#999;}
+.text_curr{color:#B1171A;font-size:1.5em;}
+.mp_title_txt{display:inline-block;*display:inline;zoom:1;width:92%; vertical-align:middle; font-size:14px;line-height:20px;text-align:left}
+.mp_fold{display:none;float:right;width:60px;height:100%;text-align:center;cursor:pointer}
+.ico_fold{display:inline-block;width:20px;height:12px;margin-top:25px;background:url(/images/news/201312/images/photo_news_bg.png?v=2) no-repeat 0 -147px}
+.hover_mp_fold{background:transparent}
+.hover_mp_fold .mp_title_txt{display:none}
+.hover_mp_fold .mP_count{display:none}
+.hover_mp_fold .mp_fold{height:60px;background-color:#000}  
+.hover_mp_fold .ico_fold{margin-top:15px;margin-bottom:5px;background-position:0 -125px}
+.mp_img_area .prev,.mp_img_area .next{position:absolute;top:0;width:72px;height:104px;z-index:2;cursor:pointer}
+.mp_img_area .prev{left: -72px}
+.mp_img_area .next{right: -72px}
+.mp_img_area .prev .btn_mobile,.mp_img_area .next .btn_mobile { display: none; }
+.mp_img_area .prev .mp_hover,.mp_img_area .next .mp_hover{ display: inline-block; width:72px;height:104px;font-size:6em;font-family:\5b8b\4f53;opacity:0.8;cursor:pointer;color: #eee;font-weight: 700; text-decoration: none;}
+.mp_img_area .prev .mp_hover{left:-72px}
+.mp_img_area .next .mp_hover{right:-72px;}
+.mp_img_w{position:relative;zoom:1;margin:0 auto;overflow:hidden;}
+
+.mp_img_tips{display:none;position:absolute;top:5px;right:5px;width:200px;height:14px;overflow:hidden;padding:3px;background:#91908F;line-height:14px;z-index:11;opacity:0.9;-moz-opacity:0.9;-khtml-opacity:0.9;filter:alpha(Opacity=90);font-family:\5b8b\4f53}
+.colse_img_tips{display:inline-block;float:right;width:14px;height:14px;margin-left:5px;background:url(../images/photo_news_bg.png) no-repeat 0 -81px}
+.mp_loading{position:relative;height:100px;text-align:center;}
+.mp_loading img{position:absolute;top:0;left:50%}
+.mp_loading_c{position:absolute;top:0;left:50%}
+.mP_last{position:absolute;top:-520px;left:50%;z-index:3;margin-left:-250px;width:500px;height:300px;background:#000;border:solid 1px #fff;opacity:0.7;filter:alpha(Opacity=70);color:#fff;text-align:center}
+.mP_last p{margin-top:30px;text-align:center;font-weight:bolder;font-size:14px}
+.mP_last .btn_again,.mP_last .mP_btn_link{display:inline-block;width:85px;margin:15px 10px;border:solid 1px #fff;line-height:22px;color:#FFFFFF;cursor:pointer;text-align:center}
+.colse_mP_last{position:absolute;top:10px;right:10px;display:inline-block;padding:1px 2px 0 3px;line-height:18px;font-family:\5b8b\4f53;border:solid 1px #eee;font-size:1.2em;color:#eee;cursor:pointer}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>div</title>
+    <style>
+        .dic {
+            border: 1px solid red;
+            width: 40px;
+            height: 40px;
+            margin: 5px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .dic2{
+            border-width: 1px;
+            border-style: solid;
+            width: 50px;
+            height: 50px;
+        }
+        h1{
+            color: #04569A;
+        }
+    </style>
+</head>
+<body>
+<div style="border:1px solid red;width:300px;">
+    <div style="border: 1px solid blue;margin:10px 20px 30px;padding:10px 20px 30px;">Hello</div>
+</div>
+<br>
+<hr>
+<br>
+
+<div style="border: 1px solid red;">hello</div>
+<span style="border: 1px solid blue;">world</span>
+<br>
+<hr>
+<br>
+
+<div style="border: 1px solid red; display: inline">hello</div>
+<span style="border: 1px solid blue; display: block">world</span>
+<br>
+<hr>
+<br>
+
+div<p style="display: inline">段落</p>
+
+<p style="display: inline">段落</p>
+
+<p style="display: inline">段落</p>
+<br>
+<hr>
+<br>
+span<input type="text" placeholder="请输入" style="display: block"/>
+<input type="radio" placeholder="111" style="display: block"/>111
+<select style="display: block">
+    <option value="111">111</option>
+    <option value="222">222</option>
+    <option value="333">333</option>
+</select>
+<br>
+<hr>
+<br>
+<h1>定位</h1>
+<div class="dic2" style="border-color:  red;">aa</div>
+<div class="dic2" style="border-color:  blue;">bb</div>
+<br>
+<hr>
+<br>
+<h1>相对定位</h1>
+<div class="dic2" style="border-color:  red;">aa</div>
+<div class="dic2" style="position: relative; left: 20px; top: 20px; border-color: blue;">bb</div>
+<div class="dic2" style="border-color: green">cc</div>
+<br>
+<hr>
+<br>
+<h1>绝对定位</h1>
+<div><div class="dic2" style="border-color:  red;">aa</div>
+    <div class="dic2" style="position: absolute;left: 30px;top: 1250px;border-color: blue">bb</div>
+    <div class="dic2" style="border-color: green">cc</div>
+</div>
+<br>
+<hr>
+<br>
+<h1>fixed定位</h1>
+<div>
+    <div class="dic2" style="border-color: red">aa</div>
+    <div class="dic2" style="position: fixed;right: 30px;top: 30px;border-color: blue">bb</div>
+    <div class="dic2" style="position: fixed;bottom: 30px;width: 300px;border-color: green">cc</div>
+</div>
+<br>
+<hr>
+<br>
+<h1>浮动</h1>
+<div style="float: left;border: 2px solid green;width: 30px;height: 30px">aaa</div>
+<div style="border: 2px solid blue;width: 50px;height: 50px">bbb</div>
+<br>
+<div style="float:left;border: 2px solid green;width: 30px;height: 30px">aaa</div>
+<div style="float: left; border: 2px solid blue;width: 50px;height: 50px">bbb</div>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<br>
+
+<h1>左浮动</h1>
+
+<div class="dic">a</div>
+<div class="dic" style="float: left;">b</div>
+<div class="dic">c</div>
+<br>
+<hr>
+<br>
+
+<h1>右浮动</h1>
+
+<div class="dic">a</div>
+<div class="dic">b</div>
+<div class="dic" style="float:right;">c</div>
+<div class="dic">d</div>
+<br>
+<hr>
+<br>
+
+<h1>连续浮动</h1>
+
+<div class="dic">a</div>
+<div class="dic" style="float:left;">b</div>
+<div class="dic" style="float:left;">c</div>
+<div class="dic">d</div>
+<div class="dic">e</div>
+
+<br>
+<hr>
+<br>
+
+<h1>清除浮动</h1>
+
+<div class="dic">a</div>
+<div class="dic" style="float:left;">b</div>
+<div class="dic" style="float:left;">c</div>
+<div class="dic" style="float:left;">d</div>
+<div class="dic">e</div>
+<div class="dic">f</div>
+<div class="dic">g</div>
+<br>
+<br>
+<br>
+
+<div class="dic">a</div>
+<div class="dic" style="float:left;">b</div>
+<div class="dic" style="float:left;">c</div>
+<div class="dic" style="float:left;clear:left;">d</div>
+<div class="dic">e</div>
+<div class="dic">f</div>
+<div class="dic">g</div>
+
+</body>
+</html>

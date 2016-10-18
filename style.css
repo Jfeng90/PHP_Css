@@ -1,0 +1,98 @@
+.shop{
+    height: 300px;
+    width: 260px;
+    border: 1px solid rgb(210,225,241);
+}
+.head{
+    padding: 5px;
+}
+.span1{
+    float: right;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgb(102,102,102)
+}
+.number{
+    text-decoration: none;
+    color: rgb(189,10,1);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+ul{
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left: -30px;
+}
+.item1{
+    line-height: 20px;
+    padding: 8px 0 7px;
+    background: rgb(224,234,250);
+}
+.item2{
+    line-height: 20px;
+    padding: 8px 0 7px;
+}
+.item3{
+    line-height: 20px;
+    padding: 8px 0 7px;
+    background: rgb(224,234,250);
+}
+.item4{
+    line-height: 20px;
+    padding: 8px 0 7px;
+}
+.li1{
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+}
+.footer{
+    border-top: 1px dotted rgb(219,219,219);
+    line-height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(102,102,102);
+    font-size: 14px;
+    padding-top: 10px;
+}
+.p1{
+    background-image: url("img/index.1.2.png");
+    background-position: -213px -64px;
+    background-repeat: no-repeat;
+    width: 20px;height: 20px;
+    display: inline-block;
+}
+.p2{
+    background-image: url("img/index.1.2.png");
+    background-position: -243px -66px;
+    background-repeat: no-repeat;
+    width: 20px;height: 20px;
+    display: inline-block;
+}
+.p3{
+    background-image: url("img/index.1.2.png");
+    background-position: -275px -65px;
+    background-repeat: no-repeat;
+    width: 20px;height: 20px;
+    display: inline-block;
+}
+.p4{
+    background-image: url("img/index.1.2.png");
+    background-position: -305px -65px;
+    background-repeat: no-repeat;
+    width: 20px;height: 20px;
+    display: inline-block;
+}
+.fp1{
+    background-image: url("img/index.1.2.png");
+    background-position: -30px -135px;
+    background-repeat: no-repeat;
+    width: 20px;height: 22px;
+    display: inline-block;
+}.fp2{
+    background-image: url("img/index.1.2.png");
+    background-position: -52px -135px;
+    background-repeat: no-repeat;
+    width: 20px;height: 22px;
+    display: inline-block;
+}
